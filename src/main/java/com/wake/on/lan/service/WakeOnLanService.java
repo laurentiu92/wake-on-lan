@@ -50,7 +50,7 @@ public class WakeOnLanService {
     }
 
 
-    private void sendWakeSignal() throws Exception{
+    private void sendWakeSignal() throws Exception {
             byte[] macBytes = WakeUtil.getMacBytes(mac);
             byte[] bytes = new byte[6 + 16 * macBytes.length];
             for (int i = 0; i < 6; i++) {
