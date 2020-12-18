@@ -1,6 +1,0 @@
-com\wake\on\lan\model\WakeRequestBody.class
-com\wake\on\lan\controller\WakeOnLanController.class
-com\wake\on\lan\WakeOnLanApplication.class
-com\wake\on\lan\model\WakeRequestBody$WakeRequestBodyBuilder.class
-com\wake\on\lan\util\WakeUtil.class
-com\wake\on\lan\service\WakeOnLanService.class
