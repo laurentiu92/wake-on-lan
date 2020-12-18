@@ -12,6 +12,9 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.util.ReflectionTestUtils;
 
 import java.net.DatagramSocket;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.is;
@@ -80,6 +83,10 @@ public class WakeOnLanServiceTest {
 
         assertThat(resp.getStatusCode(), is(HttpStatus.INTERNAL_SERVER_ERROR));
         assertThat(resp.getBody(), is("Failed to send Wake-on-LAN packet"));
+
+        List<String> names = Arrays.asList("John", "Freddy", "Samuel");
+        names.forEach(name -> System.out.println("Hello, " + name));
+        List<? extends Number> foo3 = new ArrayList<Integer>();
 
     }
 
