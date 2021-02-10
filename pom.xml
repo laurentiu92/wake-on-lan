@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.wake.on.lan</groupId>
-	<artifactId>wake-on-lan</artifactId>
+	<artifactId>wakeonlan</artifactId>
 	<version>0.0.1</version>
-	<name>wake-on-lan</name>
+	<name>wakeonlan</name>
 	<description>Wake on lan</description>
 
 	<properties>
