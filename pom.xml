@@ -112,7 +112,7 @@
 				<version>2.7.1</version>
 				<configuration>
 					<to>
-						<image>laurentiu29/${project.artifactId}:${project.version}</image>
+						<image>DaniPislaru/${project.artifactId}:${project.version}</image>
 					</to>
 				</configuration>
 			</plugin>
